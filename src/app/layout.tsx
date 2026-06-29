@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Great_Vibes } from "next/font/google";
+import { Cormorant_Garamond, Cinzel } from "next/font/google";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -8,10 +8,10 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
 });
 
-const greatVibes = Great_Vibes({
-  weight: "400",
+const cinzel = Cinzel({
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
-  variable: "--font-great-vibes",
+  variable: "--font-cinzel",
 });
 
 export const metadata: Metadata = {
@@ -31,8 +31,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cormorant.variable} ${greatVibes.variable} font-body antialiased bg-[#FCE4EC] text-[#4A3B32]`}
-      >
+  className={`${cormorant.variable} ${cinzel.variable} font-body antialiased bg-[#FCE4EC] text-[#4A3B32]`}
+>
         {children}
       </body>
     </html>

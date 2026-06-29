@@ -2,7 +2,7 @@
 
 /* Custom utilities for the script font */
 @utility font-script {
-  font-family: var(--font-great-vibes), cursive;
+    font-family: var(--font-cinzel), serif;
 }
 
 /* Custom utility for the serif body font */
