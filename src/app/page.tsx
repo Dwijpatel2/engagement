@@ -262,10 +262,10 @@ Om Shree Ganeshay Namah
  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.5 }} 
  className="flex flex-col items-center justify-center w-full mb-3"
  >
- <p className={`text-center font-body font-medium mb-1`} style={{ fontSize: '18px' }}>
+ <p className={`text-center font-body font-medium mb-1`} style={{ fontSize: '20px' }}>
  Beloved Daughter of
  </p>
- <p className={`text-center font-body font-medium px-2 text-[#2D1F1B]`} style={{ fontSize: '25px' }}>
+ <p className={`text-center font-body font-medium px-2 text-[#2D1F1B]`} style={{ fontSize: '27px' }}>
  <b>Jagrutiben &amp; Govind Langhnoda</b>
  </p>
  </motion.div>
@@ -274,15 +274,15 @@ Om Shree Ganeshay Namah
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-  className="font-heading text-[#A67C2D] leading-[1.0] mb-3 relative z-20 py-2 px-2 tracking-[0.08em]"
+  className="font-heading text-[#43204A] leading-[1.0] mb-3 relative z-20 py-2 px-2 tracking-[0.08em]"
   style={{ fontSize: "48px" }}
 >
   <b>Chhaya{" "}
   <span
-    className="font-body mx-2 font-light italic inline-block text-[#7A2A39]"
-    style={{ fontSize: "28px" }}
+    className="font-body mx-2  inline-block text-[#7A2A39]"
+    style={{ fontSize: "35px" }}
   >
-    &
+    <b>&</b>
   </span>{" "}
   Dwij
   </b>
@@ -293,10 +293,10 @@ Om Shree Ganeshay Namah
  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.7 }} 
  className="flex flex-col items-center justify-center w-full mt-3 mb-2"
  >
- <p className={`text-center font-body font-medium mb-1`} style={{ fontSize: '18px' }}>
+ <p className={`text-center font-body font-medium mb-1`} style={{ fontSize: '20px' }}>
  Beloved Son of
  </p>
- <p className={`text-center font-body font-medium px-2 text-[#2D1F1B]`} style={{ fontSize: '25px' }}>
+ <p className={`text-center font-body font-medium px-2 text-[#2D1F1B]`} style={{ fontSize: '27px' }}>
  <b>Kailashben &amp; Mitesh Patel</b>
  </p>
  </motion.div>
@@ -490,7 +490,7 @@ Om Shree Ganeshay Namah
 
  {/* Item 2: Subtitle */}
  <motion.p 
- style={{ opacity: rsvp1.opacity, y: rsvp1.y, fontSize: '16px' }} 
+ style={{ opacity: rsvp1.opacity, y: rsvp1.y, fontSize: '18px' }} 
  className={`text-center mb-4 text-[#2D1F1B] font-body font-medium`}
  >
  Kindly let us know if you can join our celebration.
@@ -519,7 +519,7 @@ Om Shree Ganeshay Namah
 
  {/* ── Will you attend? ── */}
  <label className={`block pl-3 mt-4 mb-1 text-[#7A2A39] font-body font-semibold`} style={{ fontSize: '16px' }}>
- Will you be attending?
+ <b>Will you be attending?</b>
  </label>
  <div className="grid grid-cols-2 gap-4 ">
  <motion.button
